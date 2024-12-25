@@ -18,12 +18,20 @@ This project is a boilerplate for setting up authentication in an Express applic
 - Email verification using nodemailer
 - drizzle to set user auth status
 
+### Project Structure
+
+- `src/main.ts` - Contains the main application entry
+- `src/auth/` - Contains the authentication functions
+- `src/db/` - Contains the database schemas
+- `src/router/` - Contains the route definitions
+- `src/middleware/` - Contains the middleware functions
+
 ### Installation
 
 1. Clone the repository:
   ```sh
-  git clone https://github.com/yourusername/express-jwt-drizzle.git
-  cd express-jwt-drizzle
+  git clone https://github.com/kaleb110/express-jwt-auth
+  cd express-jwt-auth
   ```
 
 2. Install dependencies:
@@ -59,13 +67,5 @@ This project is a boilerplate for setting up authentication in an Express applic
   ```
 
 2. The application will be running at `http://localhost:5000`.
-
-### Project Structure
-
-- `src/main.ts` - Contains the main application entry
-- `src/auth/` - Contains the authentication functions
-- `src/db/` - Contains the database schemas
-- `src/router/` - Contains the route definitions
-- `src/middleware/` - Contains the middleware functions
 
 
